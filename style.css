@@ -1,0 +1,77 @@
+html{
+  scroll-behavior: smooth;
+}
+.navbar a {
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: Century gothic;
+  padding: 5px;
+  text-decoration: none;
+  color: hsl(37deg 68% 66% / 89%);
+  font-size: 25px;
+}
+a:hover {
+  background-color: rgb(175, 152, 121);
+  color: beige;
+}
+
+body {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.1)),
+    url(pexels-pixabay-259165.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.navbar {
+ 
+  position: fixed;
+  top: 55px;
+  left: 120px;
+}
+.logo img {
+  width: 90px;
+  height: auto;
+  position: fixed;
+  top: 30px; 
+  cursor: pointer; 
+}
+
+h1 {
+  position: relative;
+  top: 115px;
+  left: 250px;
+  text-align: center;
+  font-family: Century gothic;
+  margin-top: 150px;
+  color: rgba(255, 255, 255, 0.712);
+  border: 1px solid hsl(37deg 68% 66% / 89%) ;
+  border-right: 0px ;
+  border-left: 0px;
+  width: 750px;
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+span a {
+  font-family: Century gothic;
+  border: solid 1px orange;
+  border-radius: 5px;
+  position: relative;
+  transition: 0.5s;
+  left: 40%;
+  top: 165px;
+  color: hsl(37deg 68% 66% / 89%);
+  padding: 10px 15px;
+  font-size: 25px;
+  font-weight: 500;
+ 
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 400px;
+  padding: 35px;
+}
+
+/*bs bhai  itna thike ab baki bad mein  */
